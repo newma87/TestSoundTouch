@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D373656A1CC8FF6600E9B3C9 /* STAudioPackages.m in Sources */ = {isa = PBXBuildFile; fileRef = D37365651CC8FF6600E9B3C9 /* STAudioPackages.m */; settings = {ASSET_TAGS = (); }; };
+		D373656B1CC8FF6600E9B3C9 /* STAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D37365671CC8FF6600E9B3C9 /* STAudioPlayer.m */; settings = {ASSET_TAGS = (); }; };
+		D373656C1CC8FF6600E9B3C9 /* STAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D37365691CC8FF6600E9B3C9 /* STAudioRecorder.m */; settings = {ASSET_TAGS = (); }; };
+		D373658A1CC8FF7000E9B3C9 /* AAFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D373656E1CC8FF7000E9B3C9 /* AAFilter.cpp */; settings = {ASSET_TAGS = (); }; };
+		D373658B1CC8FF7000E9B3C9 /* BPMDetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D37365701CC8FF7000E9B3C9 /* BPMDetect.cpp */; settings = {ASSET_TAGS = (); }; };
+		D373658C1CC8FF7000E9B3C9 /* cpu_detect_x86.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D37365731CC8FF7000E9B3C9 /* cpu_detect_x86.cpp */; settings = {ASSET_TAGS = (); }; };
+		D373658D1CC8FF7000E9B3C9 /* FIFOSampleBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D37365741CC8FF7000E9B3C9 /* FIFOSampleBuffer.cpp */; settings = {ASSET_TAGS = (); }; };
+		D373658E1CC8FF7000E9B3C9 /* FIRFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D37365771CC8FF7000E9B3C9 /* FIRFilter.cpp */; settings = {ASSET_TAGS = (); }; };
+		D373658F1CC8FF7000E9B3C9 /* InterpolateCubic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D37365791CC8FF7000E9B3C9 /* InterpolateCubic.cpp */; settings = {ASSET_TAGS = (); }; };
+		D37365901CC8FF7000E9B3C9 /* InterpolateLinear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D373657B1CC8FF7000E9B3C9 /* InterpolateLinear.cpp */; settings = {ASSET_TAGS = (); }; };
+		D37365911CC8FF7000E9B3C9 /* InterpolateShannon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D373657D1CC8FF7000E9B3C9 /* InterpolateShannon.cpp */; settings = {ASSET_TAGS = (); }; };
+		D37365921CC8FF7000E9B3C9 /* mmx_optimized.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D373657F1CC8FF7000E9B3C9 /* mmx_optimized.cpp */; settings = {ASSET_TAGS = (); }; };
+		D37365931CC8FF7000E9B3C9 /* PeakFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D37365801CC8FF7000E9B3C9 /* PeakFinder.cpp */; settings = {ASSET_TAGS = (); }; };
+		D37365941CC8FF7000E9B3C9 /* RateTransposer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D37365821CC8FF7000E9B3C9 /* RateTransposer.cpp */; settings = {ASSET_TAGS = (); }; };
+		D37365951CC8FF7000E9B3C9 /* SoundTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D37365841CC8FF7000E9B3C9 /* SoundTouch.cpp */; settings = {ASSET_TAGS = (); }; };
+		D37365961CC8FF7000E9B3C9 /* sse_optimized.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D37365861CC8FF7000E9B3C9 /* sse_optimized.cpp */; settings = {ASSET_TAGS = (); }; };
+		D37365971CC8FF7000E9B3C9 /* TDStretch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D37365881CC8FF7000E9B3C9 /* TDStretch.cpp */; settings = {ASSET_TAGS = (); }; };
+		D38C05E31CBBD1D900E973E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38C05E21CBBD1D900E973E2 /* main.m */; };
+		D38C05E61CBBD1D900E973E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D38C05E51CBBD1D900E973E2 /* AppDelegate.m */; };
+		D38C05E91CBBD1D900E973E2 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D38C05E81CBBD1D900E973E2 /* ViewController.mm */; };
+		D38C05EC1CBBD1D900E973E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38C05EA1CBBD1D900E973E2 /* Main.storyboard */; };
+		D38C05EE1CBBD1D900E973E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38C05ED1CBBD1D900E973E2 /* Assets.xcassets */; };
+		D38C05F11CBBD1D900E973E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38C05EF1CBBD1D900E973E2 /* LaunchScreen.storyboard */; };
+		D38C05FC1CBBD1D900E973E2 /* TestSoundTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D38C05FB1CBBD1D900E973E2 /* TestSoundTouchTests.m */; };
+		D38C06071CBBD1D900E973E2 /* TestSoundTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D38C06061CBBD1D900E973E2 /* TestSoundTouchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D38C05F81CBBD1D900E973E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38C05D61CBBD1D900E973E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38C05DD1CBBD1D900E973E2;
+			remoteInfo = TestSoundTouch;
+		};
+		D38C06031CBBD1D900E973E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38C05D61CBBD1D900E973E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38C05DD1CBBD1D900E973E2;
+			remoteInfo = TestSoundTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D37365631CC8FF6600E9B3C9 /* STAudioConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAudioConfigure.h; sourceTree = "<group>"; };
+		D37365641CC8FF6600E9B3C9 /* STAudioPackages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAudioPackages.h; sourceTree = "<group>"; };
+		D37365651CC8FF6600E9B3C9 /* STAudioPackages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAudioPackages.m; sourceTree = "<group>"; };
+		D37365661CC8FF6600E9B3C9 /* STAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAudioPlayer.h; sourceTree = "<group>"; };
+		D37365671CC8FF6600E9B3C9 /* STAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAudioPlayer.m; sourceTree = "<group>"; };
+		D37365681CC8FF6600E9B3C9 /* STAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAudioRecorder.h; sourceTree = "<group>"; };
+		D37365691CC8FF6600E9B3C9 /* STAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAudioRecorder.m; sourceTree = "<group>"; };
+		D373656E1CC8FF7000E9B3C9 /* AAFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AAFilter.cpp; sourceTree = "<group>"; };
+		D373656F1CC8FF7000E9B3C9 /* AAFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAFilter.h; sourceTree = "<group>"; };
+		D37365701CC8FF7000E9B3C9 /* BPMDetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BPMDetect.cpp; sourceTree = "<group>"; };
+		D37365711CC8FF7000E9B3C9 /* BPMDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPMDetect.h; sourceTree = "<group>"; };
+		D37365721CC8FF7000E9B3C9 /* cpu_detect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_detect.h; sourceTree = "<group>"; };
+		D37365731CC8FF7000E9B3C9 /* cpu_detect_x86.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpu_detect_x86.cpp; sourceTree = "<group>"; };
+		D37365741CC8FF7000E9B3C9 /* FIFOSampleBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FIFOSampleBuffer.cpp; sourceTree = "<group>"; };
+		D37365751CC8FF7000E9B3C9 /* FIFOSampleBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIFOSampleBuffer.h; sourceTree = "<group>"; };
+		D37365761CC8FF7000E9B3C9 /* FIFOSamplePipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIFOSamplePipe.h; sourceTree = "<group>"; };
+		D37365771CC8FF7000E9B3C9 /* FIRFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FIRFilter.cpp; sourceTree = "<group>"; };
+		D37365781CC8FF7000E9B3C9 /* FIRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRFilter.h; sourceTree = "<group>"; };
+		D37365791CC8FF7000E9B3C9 /* InterpolateCubic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InterpolateCubic.cpp; sourceTree = "<group>"; };
+		D373657A1CC8FF7000E9B3C9 /* InterpolateCubic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterpolateCubic.h; sourceTree = "<group>"; };
+		D373657B1CC8FF7000E9B3C9 /* InterpolateLinear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InterpolateLinear.cpp; sourceTree = "<group>"; };
+		D373657C1CC8FF7000E9B3C9 /* InterpolateLinear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterpolateLinear.h; sourceTree = "<group>"; };
+		D373657D1CC8FF7000E9B3C9 /* InterpolateShannon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InterpolateShannon.cpp; sourceTree = "<group>"; };
+		D373657E1CC8FF7000E9B3C9 /* InterpolateShannon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterpolateShannon.h; sourceTree = "<group>"; };
+		D373657F1CC8FF7000E9B3C9 /* mmx_optimized.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mmx_optimized.cpp; sourceTree = "<group>"; };
+		D37365801CC8FF7000E9B3C9 /* PeakFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PeakFinder.cpp; sourceTree = "<group>"; };
+		D37365811CC8FF7000E9B3C9 /* PeakFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeakFinder.h; sourceTree = "<group>"; };
+		D37365821CC8FF7000E9B3C9 /* RateTransposer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RateTransposer.cpp; sourceTree = "<group>"; };
+		D37365831CC8FF7000E9B3C9 /* RateTransposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateTransposer.h; sourceTree = "<group>"; };
+		D37365841CC8FF7000E9B3C9 /* SoundTouch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundTouch.cpp; sourceTree = "<group>"; };
+		D37365851CC8FF7000E9B3C9 /* SoundTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundTouch.h; sourceTree = "<group>"; };
+		D37365861CC8FF7000E9B3C9 /* sse_optimized.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sse_optimized.cpp; sourceTree = "<group>"; };
+		D37365871CC8FF7000E9B3C9 /* STTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTypes.h; sourceTree = "<group>"; };
+		D37365881CC8FF7000E9B3C9 /* TDStretch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TDStretch.cpp; sourceTree = "<group>"; };
+		D37365891CC8FF7000E9B3C9 /* TDStretch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDStretch.h; sourceTree = "<group>"; };
+		D38C05DE1CBBD1D900E973E2 /* TestSoundTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSoundTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38C05E21CBBD1D900E973E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D38C05E41CBBD1D900E973E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D38C05E51CBBD1D900E973E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D38C05E71CBBD1D900E973E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D38C05E81CBBD1D900E973E2 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		D38C05EB1CBBD1D900E973E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D38C05ED1CBBD1D900E973E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D38C05F01CBBD1D900E973E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D38C05F21CBBD1D900E973E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38C05F71CBBD1D900E973E2 /* TestSoundTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSoundTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38C05FB1CBBD1D900E973E2 /* TestSoundTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSoundTouchTests.m; sourceTree = "<group>"; };
+		D38C05FD1CBBD1D900E973E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38C06021CBBD1D900E973E2 /* TestSoundTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSoundTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38C06061CBBD1D900E973E2 /* TestSoundTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSoundTouchUITests.m; sourceTree = "<group>"; };
+		D38C06081CBBD1D900E973E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D38C05DB1CBBD1D900E973E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38C05F41CBBD1D900E973E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38C05FF1CBBD1D900E973E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D37365621CC8FF6600E9B3C9 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D37365631CC8FF6600E9B3C9 /* STAudioConfigure.h */,
+				D37365641CC8FF6600E9B3C9 /* STAudioPackages.h */,
+				D37365651CC8FF6600E9B3C9 /* STAudioPackages.m */,
+				D37365661CC8FF6600E9B3C9 /* STAudioPlayer.h */,
+				D37365671CC8FF6600E9B3C9 /* STAudioPlayer.m */,
+				D37365681CC8FF6600E9B3C9 /* STAudioRecorder.h */,
+				D37365691CC8FF6600E9B3C9 /* STAudioRecorder.m */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		D373656D1CC8FF7000E9B3C9 /* SoundTouch */ = {
+			isa = PBXGroup;
+			children = (
+				D373656E1CC8FF7000E9B3C9 /* AAFilter.cpp */,
+				D373656F1CC8FF7000E9B3C9 /* AAFilter.h */,
+				D37365701CC8FF7000E9B3C9 /* BPMDetect.cpp */,
+				D37365711CC8FF7000E9B3C9 /* BPMDetect.h */,
+				D37365721CC8FF7000E9B3C9 /* cpu_detect.h */,
+				D37365731CC8FF7000E9B3C9 /* cpu_detect_x86.cpp */,
+				D37365741CC8FF7000E9B3C9 /* FIFOSampleBuffer.cpp */,
+				D37365751CC8FF7000E9B3C9 /* FIFOSampleBuffer.h */,
+				D37365761CC8FF7000E9B3C9 /* FIFOSamplePipe.h */,
+				D37365771CC8FF7000E9B3C9 /* FIRFilter.cpp */,
+				D37365781CC8FF7000E9B3C9 /* FIRFilter.h */,
+				D37365791CC8FF7000E9B3C9 /* InterpolateCubic.cpp */,
+				D373657A1CC8FF7000E9B3C9 /* InterpolateCubic.h */,
+				D373657B1CC8FF7000E9B3C9 /* InterpolateLinear.cpp */,
+				D373657C1CC8FF7000E9B3C9 /* InterpolateLinear.h */,
+				D373657D1CC8FF7000E9B3C9 /* InterpolateShannon.cpp */,
+				D373657E1CC8FF7000E9B3C9 /* InterpolateShannon.h */,
+				D373657F1CC8FF7000E9B3C9 /* mmx_optimized.cpp */,
+				D37365801CC8FF7000E9B3C9 /* PeakFinder.cpp */,
+				D37365811CC8FF7000E9B3C9 /* PeakFinder.h */,
+				D37365821CC8FF7000E9B3C9 /* RateTransposer.cpp */,
+				D37365831CC8FF7000E9B3C9 /* RateTransposer.h */,
+				D37365841CC8FF7000E9B3C9 /* SoundTouch.cpp */,
+				D37365851CC8FF7000E9B3C9 /* SoundTouch.h */,
+				D37365861CC8FF7000E9B3C9 /* sse_optimized.cpp */,
+				D37365871CC8FF7000E9B3C9 /* STTypes.h */,
+				D37365881CC8FF7000E9B3C9 /* TDStretch.cpp */,
+				D37365891CC8FF7000E9B3C9 /* TDStretch.h */,
+			);
+			path = SoundTouch;
+			sourceTree = "<group>";
+		};
+		D38C05D51CBBD1D900E973E2 = {
+			isa = PBXGroup;
+			children = (
+				D38C05E01CBBD1D900E973E2 /* TestSoundTouch */,
+				D38C05FA1CBBD1D900E973E2 /* TestSoundTouchTests */,
+				D38C06051CBBD1D900E973E2 /* TestSoundTouchUITests */,
+				D38C05DF1CBBD1D900E973E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D38C05DF1CBBD1D900E973E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D38C05DE1CBBD1D900E973E2 /* TestSoundTouch.app */,
+				D38C05F71CBBD1D900E973E2 /* TestSoundTouchTests.xctest */,
+				D38C06021CBBD1D900E973E2 /* TestSoundTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D38C05E01CBBD1D900E973E2 /* TestSoundTouch */ = {
+			isa = PBXGroup;
+			children = (
+				D373656D1CC8FF7000E9B3C9 /* SoundTouch */,
+				D37365621CC8FF6600E9B3C9 /* Audio */,
+				D38C05E41CBBD1D900E973E2 /* AppDelegate.h */,
+				D38C05E51CBBD1D900E973E2 /* AppDelegate.m */,
+				D38C05E71CBBD1D900E973E2 /* ViewController.h */,
+				D38C05E81CBBD1D900E973E2 /* ViewController.mm */,
+				D38C05EA1CBBD1D900E973E2 /* Main.storyboard */,
+				D38C05ED1CBBD1D900E973E2 /* Assets.xcassets */,
+				D38C05EF1CBBD1D900E973E2 /* LaunchScreen.storyboard */,
+				D38C05F21CBBD1D900E973E2 /* Info.plist */,
+				D38C05E11CBBD1D900E973E2 /* Supporting Files */,
+			);
+			path = TestSoundTouch;
+			sourceTree = "<group>";
+		};
+		D38C05E11CBBD1D900E973E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D38C05E21CBBD1D900E973E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D38C05FA1CBBD1D900E973E2 /* TestSoundTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				D38C05FB1CBBD1D900E973E2 /* TestSoundTouchTests.m */,
+				D38C05FD1CBBD1D900E973E2 /* Info.plist */,
+			);
+			path = TestSoundTouchTests;
+			sourceTree = "<group>";
+		};
+		D38C06051CBBD1D900E973E2 /* TestSoundTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D38C06061CBBD1D900E973E2 /* TestSoundTouchUITests.m */,
+				D38C06081CBBD1D900E973E2 /* Info.plist */,
+			);
+			path = TestSoundTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D38C05DD1CBBD1D900E973E2 /* TestSoundTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38C060B1CBBD1D900E973E2 /* Build configuration list for PBXNativeTarget "TestSoundTouch" */;
+			buildPhases = (
+				D38C05DA1CBBD1D900E973E2 /* Sources */,
+				D38C05DB1CBBD1D900E973E2 /* Frameworks */,
+				D38C05DC1CBBD1D900E973E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSoundTouch;
+			productName = TestSoundTouch;
+			productReference = D38C05DE1CBBD1D900E973E2 /* TestSoundTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D38C05F61CBBD1D900E973E2 /* TestSoundTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38C060E1CBBD1D900E973E2 /* Build configuration list for PBXNativeTarget "TestSoundTouchTests" */;
+			buildPhases = (
+				D38C05F31CBBD1D900E973E2 /* Sources */,
+				D38C05F41CBBD1D900E973E2 /* Frameworks */,
+				D38C05F51CBBD1D900E973E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38C05F91CBBD1D900E973E2 /* PBXTargetDependency */,
+			);
+			name = TestSoundTouchTests;
+			productName = TestSoundTouchTests;
+			productReference = D38C05F71CBBD1D900E973E2 /* TestSoundTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D38C06011CBBD1D900E973E2 /* TestSoundTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38C06111CBBD1D900E973E2 /* Build configuration list for PBXNativeTarget "TestSoundTouchUITests" */;
+			buildPhases = (
+				D38C05FE1CBBD1D900E973E2 /* Sources */,
+				D38C05FF1CBBD1D900E973E2 /* Frameworks */,
+				D38C06001CBBD1D900E973E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38C06041CBBD1D900E973E2 /* PBXTargetDependency */,
+			);
+			name = TestSoundTouchUITests;
+			productName = TestSoundTouchUITests;
+			productReference = D38C06021CBBD1D900E973E2 /* TestSoundTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D38C05D61CBBD1D900E973E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = newma;
+				TargetAttributes = {
+					D38C05DD1CBBD1D900E973E2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = ZU753C9U5V;
+					};
+					D38C05F61CBBD1D900E973E2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D38C05DD1CBBD1D900E973E2;
+					};
+					D38C06011CBBD1D900E973E2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D38C05DD1CBBD1D900E973E2;
+					};
+				};
+			};
+			buildConfigurationList = D38C05D91CBBD1D900E973E2 /* Build configuration list for PBXProject "TestSoundTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D38C05D51CBBD1D900E973E2;
+			productRefGroup = D38C05DF1CBBD1D900E973E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D38C05DD1CBBD1D900E973E2 /* TestSoundTouch */,
+				D38C05F61CBBD1D900E973E2 /* TestSoundTouchTests */,
+				D38C06011CBBD1D900E973E2 /* TestSoundTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D38C05DC1CBBD1D900E973E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38C05F11CBBD1D900E973E2 /* LaunchScreen.storyboard in Resources */,
+				D38C05EE1CBBD1D900E973E2 /* Assets.xcassets in Resources */,
+				D38C05EC1CBBD1D900E973E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38C05F51CBBD1D900E973E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38C06001CBBD1D900E973E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D38C05DA1CBBD1D900E973E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38C05E91CBBD1D900E973E2 /* ViewController.mm in Sources */,
+				D373658D1CC8FF7000E9B3C9 /* FIFOSampleBuffer.cpp in Sources */,
+				D373658E1CC8FF7000E9B3C9 /* FIRFilter.cpp in Sources */,
+				D37365911CC8FF7000E9B3C9 /* InterpolateShannon.cpp in Sources */,
+				D373658C1CC8FF7000E9B3C9 /* cpu_detect_x86.cpp in Sources */,
+				D37365921CC8FF7000E9B3C9 /* mmx_optimized.cpp in Sources */,
+				D37365931CC8FF7000E9B3C9 /* PeakFinder.cpp in Sources */,
+				D37365961CC8FF7000E9B3C9 /* sse_optimized.cpp in Sources */,
+				D37365951CC8FF7000E9B3C9 /* SoundTouch.cpp in Sources */,
+				D373656B1CC8FF6600E9B3C9 /* STAudioPlayer.m in Sources */,
+				D373656C1CC8FF6600E9B3C9 /* STAudioRecorder.m in Sources */,
+				D373658B1CC8FF7000E9B3C9 /* BPMDetect.cpp in Sources */,
+				D373656A1CC8FF6600E9B3C9 /* STAudioPackages.m in Sources */,
+				D37365971CC8FF7000E9B3C9 /* TDStretch.cpp in Sources */,
+				D373658A1CC8FF7000E9B3C9 /* AAFilter.cpp in Sources */,
+				D37365901CC8FF7000E9B3C9 /* InterpolateLinear.cpp in Sources */,
+				D37365941CC8FF7000E9B3C9 /* RateTransposer.cpp in Sources */,
+				D38C05E61CBBD1D900E973E2 /* AppDelegate.m in Sources */,
+				D373658F1CC8FF7000E9B3C9 /* InterpolateCubic.cpp in Sources */,
+				D38C05E31CBBD1D900E973E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38C05F31CBBD1D900E973E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38C05FC1CBBD1D900E973E2 /* TestSoundTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38C05FE1CBBD1D900E973E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38C06071CBBD1D900E973E2 /* TestSoundTouchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D38C05F91CBBD1D900E973E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38C05DD1CBBD1D900E973E2 /* TestSoundTouch */;
+			targetProxy = D38C05F81CBBD1D900E973E2 /* PBXContainerItemProxy */;
+		};
+		D38C06041CBBD1D900E973E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38C05DD1CBBD1D900E973E2 /* TestSoundTouch */;
+			targetProxy = D38C06031CBBD1D900E973E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D38C05EA1CBBD1D900E973E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D38C05EB1CBBD1D900E973E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D38C05EF1CBBD1D900E973E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D38C05F01CBBD1D900E973E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D38C06091CBBD1D900E973E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = TARGET_OS_IPHONE;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D38C060A1CBBD1D900E973E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = TARGET_OS_IPHONE;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D38C060C1CBBD1D900E973E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = TestSoundTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newma.TestSoundTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D38C060D1CBBD1D900E973E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = TestSoundTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newma.TestSoundTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D38C060F1CBBD1D900E973E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestSoundTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newma.TestSoundTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSoundTouch.app/TestSoundTouch";
+			};
+			name = Debug;
+		};
+		D38C06101CBBD1D900E973E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestSoundTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newma.TestSoundTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestSoundTouch.app/TestSoundTouch";
+			};
+			name = Release;
+		};
+		D38C06121CBBD1D900E973E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestSoundTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newma.TestSoundTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestSoundTouch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D38C06131CBBD1D900E973E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestSoundTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newma.TestSoundTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestSoundTouch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D38C05D91CBBD1D900E973E2 /* Build configuration list for PBXProject "TestSoundTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38C06091CBBD1D900E973E2 /* Debug */,
+				D38C060A1CBBD1D900E973E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38C060B1CBBD1D900E973E2 /* Build configuration list for PBXNativeTarget "TestSoundTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38C060C1CBBD1D900E973E2 /* Debug */,
+				D38C060D1CBBD1D900E973E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38C060E1CBBD1D900E973E2 /* Build configuration list for PBXNativeTarget "TestSoundTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38C060F1CBBD1D900E973E2 /* Debug */,
+				D38C06101CBBD1D900E973E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38C06111CBBD1D900E973E2 /* Build configuration list for PBXNativeTarget "TestSoundTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38C06121CBBD1D900E973E2 /* Debug */,
+				D38C06131CBBD1D900E973E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D38C05D61CBBD1D900E973E2 /* Project object */;
+}
